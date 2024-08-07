@@ -1,0 +1,148 @@
+body{
+    background-color: white;
+    margin: 0px;
+}
+
+header{
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    align-items: center;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+figure{
+  width: 20px;
+  margin: 0;
+  padding: 15px;
+}
+
+#cuadro{
+  width: 20px;
+  margin: 0px;
+}
+
+#perfil{
+  width: 30px;
+  border-radius: 50%;
+}
+
+main{
+  height: 73vh;
+  display: flex;
+  justify-content: center;
+}
+
+#logo{
+  margin-top: 18vh;
+  width: 272px;
+}
+
+#logo-doodle{
+  margin-top: 12vh;
+  width: 500px;
+}
+
+#buscador{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #dadce0;
+  align-items: stretch;
+  height: 46px;
+  border-radius: 25px;
+  margin: 25px 0px 20px 0px;
+  width: 572px;
+  padding: 0px;
+}
+
+#buscador:hover{
+  box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+  border-color: transparent;
+}
+
+#buscador input{
+  flex-grow: 1;
+  border: None;
+  outline: None;
+}
+
+div button{
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  font-size: 14px;
+  padding: 0px 16px;
+  margin: 11px 4px;
+  height: 36px;
+  width: 160px;
+  color: #3c4043;
+  border-radius: 4px;
+}
+
+button:hover{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+article{
+  text-align: center;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+a:hover{
+  text-decoration-line: underline;
+}
+
+header a{
+  font-size: 13px;
+  color: #1f1f1f;
+}
+
+footer a{
+  font-size: 14px;
+  color: #202124;
+}
+
+footer p{
+  padding: 15px;
+  margin: 0px;
+  border-bottom: 1px solid #dadce0;
+}
+footer{
+  background-color: #f2f2f2;
+  align-self: flex-end;
+}
+
+footer div{
+  font: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Fuente Roboto */
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
